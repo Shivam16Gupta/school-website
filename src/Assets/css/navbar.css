@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    height:56px;
+    background-color:white;
+    position:fixed;
+    top: 0;
+}
+.elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.brand{
+    display: flex;
+    height:56px;
+    margin-left:30px ;
+    width:50%;
+    align-items: center;
+    font-weight:bold;
+    font-size:20px;
+}
+.navs{
+    width:50%;
+    height:56px;
+    display: flex;
+    margin-right:70px ;
+    gap:20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navbar-active{
+    width: 100%;
+    height:56px;
+    background-color:rgb(31, 30, 30);
+    color:white;
+    position:fixed;
+    top: 0;
+}
