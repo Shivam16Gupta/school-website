@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 import '../Assets/css/navbar.css';
 
 function NavBar() {
@@ -7,7 +7,7 @@ function NavBar() {
 
     const changeBackground = () => {
         console.log(window.scrollY)
-        if (window.scrollY >= 20) {
+        if (window.scrollY >= 60) {
           setNavbar(true)
         } else {
           setNavbar(false)
@@ -21,7 +21,7 @@ function NavBar() {
       })
     return (
         <div>
-            <div className={navbar ? "navbar-active" : "navbar"}>
+            <div className={(navbar ? "navbar-active" : "navbar")}>
                 <div className="elements">
                     <div className="brand">bhagatbabatejgirihshardoi</div>
                     <div className="navs">

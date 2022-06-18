@@ -4,6 +4,7 @@
     background-color:white;
     position:fixed;
     top: 0;
+    z-index: 1;
 }
 .elements{
     display: flex;
@@ -32,8 +33,10 @@
 .navbar-active{
     width: 100%;
     height:56px;
-    background-color:rgb(31, 30, 30);
+    background-color:black;
     color:white;
     position:fixed;
     top: 0;
+    z-index: 1;
+
 }

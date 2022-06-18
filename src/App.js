@@ -1,10 +1,13 @@
-import NavBar from '../src/Components/navbar.js';
+import HomePage from '../src/Components/homepage.js';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <HomePage/>
+      
+
       <p className="para">lorem Ipsum
       </p>
     </div>
