@@ -6,10 +6,6 @@ function App() {
   return (
     <div className="App">
       <HomePage/>
-      
-
-      <p className="para">lorem Ipsum
-      </p>
     </div>
   );
 }

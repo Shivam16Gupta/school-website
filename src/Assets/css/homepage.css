@@ -1,11 +1,17 @@
 .info{
     display:flex;
-    margin-top:150px;
+    margin-top:120px;
     flex-direction:column;
     align-items:center;
     gap:10px;
 }
-
+.udise{
+    font-size:24px;
+}
+.school-name{
+    font-size:30.66px;
+    font-weight: bold;
+}
 .gallery{
     width:100%;
     height:500px;
@@ -14,11 +20,74 @@
     z-index: -1;
     margin-top:20px;
 }
-img{
-    width:100%;
-    height:500px;
-}
+
 .carousel{
     width:80%;
-    height:500px;
+    height:600px;
+}
+.d-block{
+    width:500px;
+    height:600px;
+}
+.principal{
+    height:484.6px;
+    width:397.63px;
+    float:left;
+}
+.message{
+display:flex;
+flex-direction:row;
+margin-top: 150px;
+margin-left:150px;
+margin-right:150px;
+}
+.message-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-left: 20px;
+    margin-right:20px;
+    color:rgba(34,110,147,1);
+}
+.signature{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:20px;
+    
+}
+.staff{
+    margin-top: 40px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+    margin-bottom: 50px;
+}
+.teachers{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.images{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:80px;
+}
+.names{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap:80px;
+
+}
+.t{
+    height:400px;
+    width:350px;
 }
