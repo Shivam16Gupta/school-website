@@ -53,6 +53,7 @@ margin-right:150px;
     margin-left: 20px;
     margin-right:20px;
     color:rgba(34,110,147,1);
+    font-size: 24px;
 }
 .signature{
     display:flex;
@@ -90,4 +91,14 @@ margin-right:150px;
 .t{
     height:400px;
     width:350px;
+}
+.heading{
+    font-size: 25.33px;
+    line-height: 1.4;
+    font-weight:bold;
+    color:rgba(34,110,147,1);
+}
+.names{
+    font-size:25.33px;
+    color:rgba(34,110,147,1);
 }
