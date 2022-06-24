@@ -24,3 +24,12 @@
     text-align: justify;
   text-justify: inter-word;
 }
+@media screen and (max-width:786px) {
+
+    .heading-about{
+        font-size:53.33px;
+    }
+    .about-content{
+        font-size:28px;
+    }
+}

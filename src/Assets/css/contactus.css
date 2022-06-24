@@ -57,3 +57,19 @@
     gap:100px;
 
 }
+@media screen and (max-width: 768px)
+{
+    .arranger-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .principal-contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .principal-contact>img{
+        margin-left: 40px;
+
+    }
+}
