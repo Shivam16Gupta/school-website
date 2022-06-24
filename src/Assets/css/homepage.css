@@ -106,13 +106,25 @@ margin-right:150px;
 }
 
 @media screen and (max-width:1100px){
-    .message{
+    .carousel{
+        height:400px;
+    }
+    .d-block{
+        height:400px;
+    }
+    .message>.principal-message{
         flex-direction:column;
-
+        align-items:center;
+    }
+    .text{
+        width:100%;
     }
 
-    .teachers{
-    
+    .images{
+        align-items: center;
         flex-direction:column;
+    }
+    .names{
+        display:none;
     }
 }
