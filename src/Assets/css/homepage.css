@@ -34,6 +34,8 @@
     height:484.6px;
     width:397.63px;
     float:left;
+    
+
 }
 .message{
 display:flex;
@@ -85,9 +87,10 @@ margin-right:150px;
 }
 .names{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     justify-content:space-around;
-    gap:80px;
+    align-items:center;
+    gap:20px;
 
 }
 .t{
@@ -124,7 +127,14 @@ margin-right:150px;
         align-items: center;
         flex-direction:column;
     }
-    .names{
+    /* .names{
         display:none;
+    } */
+    .principal{
+        float:none;
     }
+    .message{
+        margin-left: -5px;
+    }
+    
 }

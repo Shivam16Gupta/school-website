@@ -63,8 +63,8 @@ function HomePage() {
             
             <div className="message-container">
               <div className="text"> 
-              <h3> -: संदेश:-</h3>
-<span>श्री भगत बाबा तेजगिरि उ0मा0 विद्यालय बेहटाचाँद, 
+              <h3>-: संदेश:-</h3>
+              <span>श्री भगत बाबा तेजगिरि उ0मा0 विद्यालय बेहटाचाँद, 
 लखनऊ रोड, हरदोई में मुख्य मार्ग पर स्थापित है। 
 विद्यालय में सुयोग्य शिक्षकों द्वारा शिक्षा प्रदान की जाती है। 
 विद्यालय मंे पर्याप्त हवादार कमरे निर्मित है तथा सी0सी0 टी0वी0 से आच्छादित है। 
@@ -85,20 +85,18 @@ function HomePage() {
             <span className="heading"><u>अध्यापकगण</u></span>
             <div className="teachers">
               <div className="images">
+                <div className="names">
             <img src={t2} class="t" alt="..."/>
-
+            <span>अविनेश कुमार
+</span></div><div className="names">
             <img src={t1} class="t" alt="..."/>
-
+            <span>मीरा यादव
+</span></div><div className="names">
             <img src={t3} class="t" alt="..."/>
+            <span>रामखेलावन
+</span></div>
             </div>
-            <div className="names">
-<span>अविनेश कुमार
-</span>
-<span>मीरा यादव
-</span>
-<span>रामखेलावन
-</span>
-            </div>
+           
             </div>
           </div>
         </div>
